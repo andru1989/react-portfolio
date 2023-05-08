@@ -3,7 +3,9 @@ import './portfolio.css';
 export const Portfolio = () => {
   return (
     <section>
-      Portfolio
+      <h2>
+        Portfolio
+      </h2>
     </section>
   );
 };

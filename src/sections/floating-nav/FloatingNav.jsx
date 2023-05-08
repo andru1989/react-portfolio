@@ -1,6 +1,6 @@
 import './floating-nav.css';
 
-export const FloatingNav = () => {
+const FloatingNav = () => {
   return (
     <section id="floating-nav">
       <h2>
@@ -9,3 +9,5 @@ export const FloatingNav = () => {
     </section>
   );
 };
+
+export default FloatingNav;
