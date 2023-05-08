@@ -1,4 +1,4 @@
-import Logo from '../../assets/logo.jpg';
+import Logo from '../../assets/cv_photo1.png';
 import data from './data';
 import { IoIosColorPalette } from 'react-icons/io';
 import './navbar.css';
@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav>
       <div className="container nav__container">
         <a href="index.html" className='nav__logo'>
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="Andrés Vizcaíno" />
         </a>
         <ul className="nav__menu">
           {data.map(({id, link, title}) => (
